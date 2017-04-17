@@ -619,7 +619,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				          "tipo": "true"
 				        },
 				        {
-				          "respuesta": "Ya sé que camos a ganar, da igual",
+				          "respuesta": "Ya sé que vamos a ganar, da igual",
 				          "tipo": "false"
 				        },
 				        {
@@ -730,7 +730,7 @@ $("#indepth_boton_empezar").on("click",function(){
 						console.log("time");
 						console.log(total);
 						finish_test(total);
-					}, 700);
+					});
 				}
 			return respuesta;
 		});
