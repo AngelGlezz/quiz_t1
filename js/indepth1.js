@@ -185,7 +185,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				          "tipo": "false"
 				        },
 				        {
-				          "respuesta": "Me ligo a unas cuantas en el bar",
+				          "respuesta": "Salgo a buscar suerte en el amor",
 				          "tipo": "false"
 				        },
 				        {
@@ -235,37 +235,6 @@ $("#indepth_boton_empezar").on("click",function(){
 				        ,
 				        {
 				          "respuesta": "Abrazo con todo el equipo",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "7",
-				      "respuestas": [
-				        {
-				          "respuesta": "Un Fiat",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Obvio Lamborghini",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Un Ferrari como el de Balotelli",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Prefiero una camioneta familiar",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "¿Coche?, ¡una moto!",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Mejor un Bentley",
 				          "tipo": "false"
 				        }
 				      ]
@@ -364,37 +333,6 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "11",
-				      "respuestas": [
-				        {
-				          "respuesta": "No importa, después veo los resultados",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Enojado pero acepto",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "¿Cuál novia?, yo vivo para el futbol",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "La convenzo de ir a otra hora",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Me hago el enfermo y me quedo a verlo",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Una vez al año no pasa nada",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
 				      "pregunta": "12",
 				      "respuestas": [
 				        {
@@ -421,37 +359,6 @@ $("#indepth_boton_empezar").on("click",function(){
 				        ,
 				        {
 				          "respuesta": "Los felicito por su buen desempeño",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "13",
-				      "respuestas": [
-				        {
-				          "respuesta": "Me pongo a llorar",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Apoyo hasta el final",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Me ardo",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Felicito al campeón",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Inicio la broma",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Hago como que no pasó nada",
 				          "tipo": "false"
 				        }
 				      ]
@@ -545,37 +452,6 @@ $("#indepth_boton_empezar").on("click",function(){
 				        ,
 				        {
 				          "respuesta": "Traje conservador",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "17",
-				      "respuestas": [
-				        {
-				          "respuesta": "Amor para toda la vida",
-				          "tipo": "true"
-				        },
-				        {
-				          "respuesta": "Donde me paguen más",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "De un club chico a uno mejor",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Si me lo permiten",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Soy nómada y campeón en todos lados",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Es como un trabajo",
 				          "tipo": "false"
 				        }
 				      ]
