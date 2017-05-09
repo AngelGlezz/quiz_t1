@@ -35,37 +35,6 @@
       "pregunta": "",
       "respuestas": [
         {
-          "respuesta": "No lo veo, ya me enteraré del resultado",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "Primero es la familia",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "Lo sigo por twitter",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "La convenzo de que veamos el juego",
-          "tipo": "true"
-        }
-        ,
-        {
-          "respuesta": "Me pierdo el partido y me pongo de malas",
-          "tipo": "false"
-        }
-        ,
-        {
-          "respuesta": "Un ojo a la tele y otro al festejo",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "",
-      "respuestas": [
-        {
           "respuesta": "Lo sigo por redes sociales",
           "tipo": "false"
         },
@@ -399,37 +368,6 @@
         ,
         {
           "respuesta": "Traje conservador",
-          "tipo": "false"
-        }
-      ]
-    },
-    {
-      "pregunta": "",
-      "respuestas": [
-        {
-          "respuesta": "Me enfoco en el fut",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "Tantas que ni me acuerdo",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "Siempre vuelvo a mi ex",
-          "tipo": "false"
-        },
-        {
-          "respuesta": "Un amor para toda la vida",
-          "tipo": "true"
-        }
-        ,
-        {
-          "respuesta": "Unas dos otres",
-          "tipo": "false"
-        }
-        ,
-        {
-          "respuesta": "Un caballero no tiene memoria",
           "tipo": "false"
         }
       ]

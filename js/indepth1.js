@@ -88,37 +88,6 @@ $("#indepth_boton_empezar").on("click",function(){
 				      "pregunta": "2",
 				      "respuestas": [
 				        {
-				          "respuesta": "No lo veo, ya me enteraré del resultado",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Primero es la familia",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Lo sigo por twitter",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "La convenzo de que veamos el juego",
-				          "tipo": "true"
-				        }
-				        ,
-				        {
-				          "respuesta": "Me pierdo el partido y me pongo de malas",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Un ojo a la tele y otro al festejo",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "3",
-				      "respuestas": [
-				        {
 				          "respuesta": "Lo sigo por redes sociales",
 				          "tipo": "false"
 				        },
@@ -147,7 +116,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "4",
+				      "pregunta": "3",
 				      "respuestas": [
 				        {
 				          "respuesta": "Me pongo la playera al otro día aún así",
@@ -178,7 +147,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "5",
+				      "pregunta": "4",
 				      "respuestas": [
 				        {
 				          "respuesta": "Me quedo a ver a mi equipo",
@@ -209,7 +178,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "6",
+				      "pregunta": "5",
 				      "respuestas": [
 				        {
 				          "respuesta": "Se lo dedico a mi novia",
@@ -240,7 +209,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "8",
+				      "pregunta": "6",
 				      "respuestas": [
 				        {
 				          "respuesta": "Me la paso llorando",
@@ -271,7 +240,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "9",
+				      "pregunta": "7",
 				      "respuestas": [
 				        {
 				          "respuesta": "Es mi vida",
@@ -302,7 +271,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "10",
+				      "pregunta": "8",
 				      "respuestas": [
 				        {
 				          "respuesta": "Que nací",
@@ -333,7 +302,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "12",
+				      "pregunta": "9",
 				      "respuestas": [
 				        {
 				          "respuesta": "No me la creo y hasta lloro",
@@ -364,7 +333,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "14",
+				      "pregunta": "10",
 				      "respuestas": [
 				        {
 				          "respuesta": "Acepto la derrota",
@@ -395,7 +364,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "15",
+				      "pregunta": "11",
 				      "respuestas": [
 				        {
 				          "respuesta": "Nada más el de mi equipo",
@@ -426,7 +395,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "16",
+				      "pregunta": "12",
 				      "respuestas": [
 				        {
 				          "respuesta": "Casual aunque quiera usar la de mi club",
@@ -457,38 +426,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "18",
-				      "respuestas": [
-				        {
-				          "respuesta": "Me enfoco en el fut",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Tantas que ni me acuerdo",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Siempre vuelvo a mi ex",
-				          "tipo": "false"
-				        },
-				        {
-				          "respuesta": "Un amor para toda la vida",
-				          "tipo": "true"
-				        }
-				        ,
-				        {
-				          "respuesta": "Unas dos otres",
-				          "tipo": "false"
-				        }
-				        ,
-				        {
-				          "respuesta": "Un caballero no tiene memoria",
-				          "tipo": "false"
-				        }
-				      ]
-				    },
-				    {
-				      "pregunta": "19",
+				      "pregunta": "13",
 				      "respuestas": [
 				        {
 				          "respuesta": "Prendo las notificaciones en el celular",
@@ -519,7 +457,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				      ]
 				    },
 				    {
-				      "pregunta": "20",
+				      "pregunta": "14",
 				      "respuestas": [
 				        {
 				          "respuesta": "Derrota segura",
