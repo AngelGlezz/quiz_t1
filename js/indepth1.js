@@ -216,7 +216,7 @@ $("#indepth_boton_empezar").on("click",function(){
 				          "tipo": "false"
 				        },
 				        {
-				          "respuesta": "Hay otras en la lista",
+				          "respuesta": "Hay otros peses en el agua",
 				          "tipo": "true"
 				        },
 				        {
