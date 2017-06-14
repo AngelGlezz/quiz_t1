@@ -48,7 +48,7 @@
 }
 
 #logo{
-	width: 100%;
+	width: 60%;
 	height: auto;
 	max-width: 645px;
 	margin-bottom: 45px;
@@ -513,6 +513,9 @@
 	cursor: pointer;
 	margin: auto;
 	background-size: contain;
+	position: absolute;
+	left: 330px;
+	top: 190px;
 }
 
 #indepth_twittear:hover{
@@ -558,13 +561,6 @@
 	visibility: hidden;
 	position: absolute;
 	display: table;
-}
-
-#dominos_resultado {
-	width: 227px;
-	height: 60px;
-	position: relative;
-	margin: auto;
 }
 
 .indepth_result_container{
@@ -652,9 +648,16 @@
 	border-radius: 5px;
 }
 
+.inner {
+	width: 82%;
+	height: 250px;
+	margin: auto;
+	position: relative;
+}
 
-@media screen and (min-width: 1920px) {
-
+#indepth_resultados {
+	width: 100%;
+	height: 100%;
 }
 
 @media screen and (min-width: 2341px) {
@@ -671,6 +674,17 @@
 }
 
 /*** Movil ****/
+@media screen and (max-width:1490px){
+	#indepth_twittear {
+		left: 205px;
+	}
+}
+
+@media screen and (max-width:1180px){
+	#indepth_twittear {
+		left: 75px;
+	}
+}
 
 @media screen and (max-width:1024px) {
 	body{
@@ -682,8 +696,8 @@
 		display: none;
 	}
 	
-	#indepth_resultados{
-		background-position: 65% 50%;
+	.inner {
+	    width: 96%;
 	}
 }
 
@@ -700,8 +714,7 @@
 
 @media screen and (max-width: 950px) {
 	#indepth_resultados {
-		background-size: 150%;
-		background-position: 60% center;
+		background-size: 185%;
 	}
 }
 
@@ -719,7 +732,6 @@
 		margin-top: 20px;
 		height: auto;
 	}
-
 	
 	.indepth_pregunta_cont{
 		width: 600px;
@@ -728,7 +740,6 @@
 	.indepth_boton{
 		float: none;
 	}
-	
 
 	#indepth_page6 {
 	  background-position: 80% 50%;
@@ -738,14 +749,13 @@
 	  background-position: 10% 50%;
 	}
 	
-	#indepth_resultados {
-	  background-position: 70% center;
-	}
-	
 	#content_page1_title {
 	    width: 70%;
 	    position: relative;
 	    margin: auto;
+	}
+	.inner {
+		margin-top: 140px;
 	}
 		
 }
@@ -828,6 +838,13 @@
 	.indepth_respuesta_item {
 	    width: 97%;
 	    margin-left: 0px;
+	}
+
+	#indepth_twittear {
+		width: 35px;
+		height: 35px;
+		left: 20px;
+		top: 140px;
 	}
 }
 
@@ -988,7 +1005,6 @@
 	
 	}
 
-
 	.indepth_lo_quiero_cont{
 		bottom: 60px;
 	}
@@ -1005,8 +1021,6 @@
 	.indepth_tenis_text{
 		width: 90%;
 	}
-	
-
 	
 	.indepth_concurso_text{
 		font-size: 16px;
@@ -1044,5 +1058,18 @@
 	    width: 85%;
 	    position: relative;
 	    margin: auto;
+	}
+
+	#indepth_resultados {
+		background-position: 50% 10%;
+	}
+
+	.inner {
+		margin-top: 0px;
+	}
+
+	#indepth_twittear {
+		left: 80px;
+		top: 90px;
 	}
 }

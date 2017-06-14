@@ -615,11 +615,17 @@ $(document).ready(function(){
 		"width": (ventana_ancho)+"px",
 		"height": (ventana_alto-100)+"px"	
 	})
+
+	$("#indepth_twittear").click(function(){
+		var text = encodeURIComponent("";
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/que-tipo-de-hombre-eres");
+		window.open("https://twitter.com/share?text="+text+"&hashtags=pizzafut&url="+url,"","width=500, height=300");
+	});
 		
-	$("#indepth_resultados").css({
+	/*$("#indepth_resultados").css({
 		"width":ventana_ancho+"px",
 		"height":ventana_alto+"px"
-	});
+	});*/
 });
 	
 	$(document).on("click", "#indepth_button_ver" ,function(){
@@ -636,10 +642,10 @@ $(window).on("resize", function(){
 		"height": (ventana_alto-100)+"px"	
 	})
 		
-	    $("#indepth_resultados").css({
+	    /*$("#indepth_resultados").css({
 			"width":ventana_ancho+"px",
 			"height":ventana_alto+"px"
-		});
+		});*/
 });
 
 
