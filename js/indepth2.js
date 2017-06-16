@@ -558,7 +558,7 @@ function finish_test(total){
 	console.log("time2");
 	console.log(total);
 	
-	 ventana_alto = window.innerHeight ? window.innerHeight : $(window).height();;
+	ventana_alto = window.innerHeight ? window.innerHeight : $(window).height();;
 	var ventana_ancho = $(window).width();
 	var img = total;
 	
@@ -575,6 +575,27 @@ function finish_test(total){
   	},2000, function(){
 	  	$("html, body, #indepth_page1").css("overflow","hidden");
   	});
+
+  	$("#indepth_twittear").click(function(){
+		
+  		var text = "";
+		if (total == 0) {
+			text = encodeURIComponent("Eres tan sensible como Buffon con la Juve, ¿También eres portero?");
+		} else if (total == 1) {
+			text = encodeURIComponent("La fiesta y el futbol corre por tu sangre, eres como el niño que nunca dejó el balón");
+		} else if (total == 2) {
+			text = encodeURIComponent("La picardía es lo tuyo, eres como Suárez, ¿No quieres tecnología en el fut?");
+		} else if (total == 3) {
+			text = encodeURIComponent("Nunca pierdes el estilo... y tampoco la arrogancia, eres como CR7");
+		} else if (total == 4) {
+			text = encodeURIComponent("Gambeteas como Messi, aunque sea en las situaciones de tu vida");
+		} else if (total == 5) {
+			text = encodeURIComponent("Eres todo un caballero y con estilo, algo así como el Xabi Alonso de la vida real");
+		}
+		
+		var url = encodeURIComponent("http://juanfutbol.com/indepth/que-tipo-de-hombre-eres");
+		window.open("https://twitter.com/share?text="+text+"&hashtags=JFTecate&url="+url,"","width=500, height=300");
+	});
 }
 
 var indepth_sizeAdjust = function(firstTime){
@@ -615,12 +636,6 @@ $(document).ready(function(){
 		"width": (ventana_ancho)+"px",
 		"height": (ventana_alto-100)+"px"	
 	})
-
-	$("#indepth_twittear").click(function(){
-		var text = encodeURIComponent("";
-		var url = encodeURIComponent("http://juanfutbol.com/indepth/que-tipo-de-hombre-eres");
-		window.open("https://twitter.com/share?text="+text+"&hashtags=pizzafut&url="+url,"","width=500, height=300");
-	});
 		
 	/*$("#indepth_resultados").css({
 		"width":ventana_ancho+"px",
